@@ -63,3 +63,6 @@ correctLabels <- function(labels) {
 
 ## Create separate tidy data set using the mean per subject per activity.
 tidyData <- df_merged %>% group_by(SubjectID, Activity) %>% summarise_each(mean)
+
+## Export data set in .txt file.
+write.table(tidyData, "tidyData.txt", row.name = FALSE)
