@@ -22,6 +22,7 @@ The 'run_analysis.R' script does the following action sequence:
       4.9. merged_set <- subjects, y_set and x_set bind by column
 5. Creating the second data set tidyData from merged_set by extracting the 
       average of each measurement per subject per activity.
+6. Exporting result table
 
 
 The tidy data set is uploaded along with a code book.
